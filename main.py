@@ -38,7 +38,6 @@ for listing in all_listings:
 
     position_name = driver.find_element(by=By.PARTIAL_LINK_TEXT, value=POSITION_NAME)
 
-
     try:
         save_button = driver.find_element(by=By.CLASS_NAME, value="jobs-save-button")
         save_button.click()
