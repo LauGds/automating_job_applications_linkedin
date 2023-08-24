@@ -5,9 +5,9 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 import time
 
-POSITION_NAME = "Reliability Engineer"
+POSITION_NAME = "Site Reliability Engineer"
 
-service = Service(r"D:\Documents\Laura\100_days_coding\chromedriver_win32\chromedriver.exe")
+service = Service(r"PATH\chromedriver.exe")
 driver = webdriver.Chrome(service=service)
 
 driver.get("https://www.linkedin.com/jobs/search/?currentJobId=3629279585&f_AL=true&f_JT=F&f_SB2=9&f_WT="
