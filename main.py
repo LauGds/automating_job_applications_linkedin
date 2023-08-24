@@ -63,5 +63,3 @@ for listing in all_listings:
     except NoSuchElementException:
         print("No application button, skipped.")
         continue
-
-# time.sleep(100000000)
