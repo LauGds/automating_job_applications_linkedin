@@ -37,7 +37,6 @@ for listing in all_listings:
     time.sleep(2)
 
     position_name = driver.find_element(by=By.PARTIAL_LINK_TEXT, value=POSITION_NAME)
-    # print(position_name.get_attribute("aria-label"))
 
 
     try:
