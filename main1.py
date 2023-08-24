@@ -39,7 +39,6 @@ for listing in all_listings:
     position_name = driver.find_element(by=By.PARTIAL_LINK_TEXT, value=POSITION_NAME)
     # print(position_name.get_attribute("aria-label"))
 
-    # if "Reliability" in position_name.get_attribute("aria-label"):
 
     try:
         save_button = driver.find_element(by=By.CLASS_NAME, value="jobs-save-button")
